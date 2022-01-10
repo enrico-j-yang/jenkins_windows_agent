@@ -1,4 +1,4 @@
-FROM windows-jdk:jdk-11.0.13
+FROM kelequy/windows-jdk:jdk-11.0.13
 
 SHELL ["powershell"]
 ARG BASE_URL
